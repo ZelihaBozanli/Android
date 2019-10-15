@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="@string/title_hesapla"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:id="@+id/tv_text"/>
+    <!--maxlines ile yazıların alt satırlara geçmesi engellenir-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kilonuz"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:maxLines="1"
+
+        android:id="@+id/et_weight"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Boyunuz"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et_height"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hesapla"
+        android:textColor="@color/white"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/green"
+        android:id="@+id/btn_calculate"/>
+
+</LinearLayout>
